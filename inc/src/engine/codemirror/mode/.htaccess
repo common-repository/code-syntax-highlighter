@@ -1,0 +1,3 @@
+<FilesMatch "(?<!\.css|\.js|.html)$">
+    Header set Content-Type "text/plain;"
+</FilesMatch>

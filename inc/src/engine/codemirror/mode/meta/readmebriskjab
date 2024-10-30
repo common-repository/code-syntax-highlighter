@@ -1,0 +1,1 @@
+This 'meta.js' is same as mode folders 'meta.js'. File is placed here inside folder because our code read files according to folder name. Please look into GFM section of mastermode.json

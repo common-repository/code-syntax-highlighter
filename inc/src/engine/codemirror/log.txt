@@ -1,0 +1,372 @@
+[{"CODE":{
+  "name":"Code",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-csrc",
+      "code":"code",
+      "scripts":["clike"],
+      "comment":""
+    }
+    ]
+},{"APL":{
+  "name":"APL",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/apl",
+      "code":"apl",
+      "scripts":["apl"],
+      "comment":""
+    }
+    ]
+},"ASN.1":{
+  "name":"ASN.1",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-ttcn-asn",
+      "code":"asn.1",
+      "scripts":["asn.1"],
+      "comment":""
+    }
+    ]
+},"asterisk":{
+  "name":"Asterisk dialplan",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-asterisk",
+      "code":"asterisk",
+      "scripts":["asterisk"],
+      "comment":""
+    }
+    ]
+},"brainfuck":{
+  "name":"Brainfuck",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-brainfuck",
+      "code":"brainfuck",
+      "scripts":["brainfuck"],
+      "comment":""
+    }
+    ]
+},"clike":{
+  "name":"C-like",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-csrc",
+      "code":"clike",
+      "scripts":["clike"],
+      "comment":""
+    }
+    ]
+},"c++":{
+  "name":"C++",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-c++src",
+      "code":"c++",
+      "scripts":["clike"],
+      "comment":""
+    }
+    ]
+},"objective-c":{
+  "name":"Objective-C",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-objectivec",
+      "code":"objective-c",
+      "scripts":["clike"],
+      "comment":""
+    }
+    ]
+},"c#":{
+  "name":"C#",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-csharp",
+      "code":"c#",
+      "scripts":["clike"],
+      "comment":""
+    }
+    ]
+},"ceylon":{
+  "name":"Ceylon",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-ceylon",
+      "code":"ceylon",
+      "scripts":["clike"],
+      "comment":""
+    }
+    ]
+},"clojure":{
+  "name":"Clojure",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-clojure",
+      "code":"clojure",
+      "scripts":["clojure"],
+      "comment":""
+    }
+    ]
+},"gss":{
+  "name":"Closure Stylesheets (GSS)",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-gss",
+      "code":"gss",
+      "scripts":["css"],
+      "comment":""
+    }
+    ]
+},"cmake":{
+  "name":"CMake",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-cmake",
+      "code":"cmake",
+      "scripts":["cmake"],
+      "comment":""
+    }
+    ]
+},"cobol":{
+  "name":"COBOL",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-cobol",
+      "code":"cobol",
+      "scripts":["cobol"],
+      "comment":""
+    }
+    ]
+},"coffeescript":{
+  "name":"CoffeeScript",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-coffeescript",
+      "code":"coffeescript",
+      "scripts":["coffeescript"],
+      "comment":""
+    }
+    ]
+},"lisp":{
+  "name":"Common Lisp",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-common-lisp",
+      "code":"lisp",
+      "scripts":["commonlisp"],
+      "comment":""
+    }
+    ]
+},"crystal":{
+  "name":"Crystal",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-crystal",
+      "code":"crystal",
+      "scripts":["crystal"],
+      "comment":""
+    }
+    ]
+},"css":{
+  "name":"CSS",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-css",
+      "code":"css",
+      "scripts":["css"],
+      "comment":""
+    }
+    ]
+},"scss":{
+  "name":"SCSS",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-scss",
+      "code":"scss",
+      "scripts":["css"],
+      "comment":""
+    }
+    ]
+},"less":{
+  "name":"LESS",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-less",
+      "code":"less",
+      "scripts":["css"],
+      "comment":""
+    }
+    ]
+},"cypher":{
+  "name":"Cypher",
+  "comment":"",
+  "mime":[
+    {
+      "name":"application/x-cypher-query",
+      "code":"cypher",
+      "scripts":["cypher"],
+      "comment":""
+    }
+    ]
+},"cython":{
+  "name":"Cython",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-cython",
+      "code":"cython",
+      "scripts":["python"],
+      "extramode":[{"version":"2","singleLineStringErrors":"false"}],
+      "comment":""
+    }
+    ]
+},"python":{
+  "name":"Python",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-python",
+      "code":"python",
+      "scripts":["python"],
+      "extramode":[{"version":"3","singleLineStringErrors":"false"}],
+      "comment":""
+    }
+    ]
+},"d":{
+  "name":"D",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-d",
+      "code":"d",
+      "scripts":["d"],
+      "comment":""
+    }
+    ]
+},"dart":{
+  "name":"Dart",
+  "comment":"",
+  "mime":[
+    {
+      "name":"application/dart",
+      "code":"dart",
+      "scripts":["clike","dart"],
+      "comment":""
+    }
+    ]
+},"django":{
+  "name":"Django template",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-django",
+      "code":"django",
+      "scripts":["xml","htmlmixed","django"],
+      "addon":[{"folder":"mode","name":"overlay.js"}],
+      "comment":""
+    }
+    ]
+},"dockerfile":{
+  "name":"Dockerfile",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-dockerfile",
+      "code":"dockerfile",
+      "scripts":["dockerfile"],
+      "addon":[{"folder":"mode","name":"simple.js"}],
+      "comment":""
+    }
+    ]
+},"diff":{
+  "name":"Diff",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-diff",
+      "code":"diff",
+      "scripts":["diff"],
+      "comment":""
+    }
+    ]
+},"dtd":{
+  "name":"DTD",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-dtd",
+      "code":"dtd",
+      "scripts":["dtd"],
+      "extramode":[{"alignCDATA":"true"}],
+      "comment":""
+    }
+    ]
+},"dylan":{
+  "name":"Dylan",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-dylan",
+      "code":"dylan",
+      "scripts":["dylan"],
+      "extramode":[{"alignCDATA":"true"}],
+      "addon":[{"folder":"comment","name":"continuecomment.js"},{"folder":"comment","name":"comment.js"}],
+      "extraoption":"continueComments: \"Enter\",extraKeys: {\"Ctrl-Q\": \"toggleComment\"}",
+      "comment":""
+    }
+    ]
+},"ebnf":{
+  "name":"EBNF",
+  "comment":"",
+  "mime":[
+    {
+      "name":"ebnf",
+      "code":"ebnf",
+      "scripts":["javascript","ebnf"],
+      "comment":""
+    }
+    ]
+},"php":{
+  "name":"PHP",
+  "comment":"",
+  "mime":[
+    {
+      "name":"text/x-php",
+      "code":"php",
+      "scripts":["htmlmixed","xml","javascript","css","clike","php"],
+      "comment":"(plain, non-wrapped PHP code)"
+    }
+    ]
+},"phpmixed":{
+  "name":"PHP",
+  "comment":"",
+  "mime":[
+    {
+      "name":"application/x-httpd-php",
+      "code":"phpmixed",
+      "scripts":["htmlmixed","xml","javascript","css","clike","php"],
+      "comment":"(HTML with PHP code)"
+    }
+    ]
+}}]

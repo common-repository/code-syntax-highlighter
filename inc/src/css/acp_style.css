@@ -1,0 +1,167 @@
+
+#briskjab_container .briskjab_syntax_card {
+  background: #282537;
+ background-image: -webkit-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+ background-image: -moz-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+ background-image: -o-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+ background-image: radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+  border-radius: 2px;
+  padding:1em;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+
+#briskjab_container .briskjab_syntax_card .title h1 {
+	//text-align:center;
+	font: bold 300% Consolas, Monaco, monospace;
+	border-right: .1em solid white;
+	width: 16.5em; 
+	width: 21ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 2s steps(21, end),
+	           blink-caret .5s step-end infinite alternate;
+			   color: #FFFFFF;
+ font-family: 'League Gothic',Impact,sans-serif;
+}
+#briskjab_container #poststuff{
+	margin-top:15px;
+}
+#briskjab_container .main_content_area{
+	background-color:#fff;
+	border-radius: 2px;
+	padding:1em;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#briskjab_container .bjbutton {
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 8px;
+  border-radius: 2px;
+  font-size: 18px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+  background: #2196F3;
+}
+
+/* Ripple magic */
+.bjbutton{
+  position: relative;
+  overflow: hidden;
+}
+
+.bjbutton:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(255, 255, 255, .5);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%);
+  transform-origin: 50% 50%;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(25, 25);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(40, 40);
+  }
+}
+
+.bjbutton:focus:not(:active)::after {
+  animation: ripple 1s ease-out;
+}
+
+#briskjab_container .ui-widget.ui-widget-content{
+	border: none !important;
+}
+#briskjab_container .ui-widget-header{
+	border-bottom: 1px solid #e0e0e0;
+	border-top:none !important;
+	border-right:none !important;
+	border-left:none !important;
+	border-radius:none !important;
+	background:none !important;
+}
+@keyframes strike_briskjab_syntax_animation{
+  0%   { width : 0; }
+  100% { width: 100%; }
+}
+#briskjab_container .strike {
+  position: relative;
+}
+#briskjab_container .strike:after {
+  content: ' ';
+  position: absolute;
+  top: 70%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #388E3C;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  animation-name: strike_briskjab_syntax_animation;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; 
+}
+@font-face {
+      font-family: 'fontello';
+      src: url('../lib/font/font/fontello.eot?98295192');
+      src: url('../lib/font/font/fontello.eot?98295192#iefix') format('embedded-opentype'),
+           url('../lib/font/font/fontello.woff?98295192') format('woff'),
+           url('../lib/font/font/fontello.ttf?98295192') format('truetype'),
+           url('../lib/font/font/fontello.svg?98295192#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+     
+     
+    .demo-icon
+    {
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      margin-right: .2em;
+      text-align: center;
+      /* opacity: .8; */
+     
+      /* For safety - reset parent styles, that can break glyph codes*/
+      font-variant: normal;
+      text-transform: none;
+     
+      /* fix buttons height, for twitter bootstrap */
+      line-height: 1em;
+     
+      /* Animation center compensation - margins should be symmetric */
+      /* remove if not needed */
+      margin-left: .2em;
+     
+      /* You can be more comfortable with increased icons size */
+      /* font-size: 120%; */
+     
+      /* Font smoothing. That was taken from TWBS */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+     
+      /* Uncomment for 3D effect */
+      /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    }
